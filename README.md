@@ -2,8 +2,4 @@
 
 Repository housing a Jupyter notebook which leverages the PRAW Python package in order to scrape Reddit data
 
-<span style="color:blue">some *blue* text</span>.
-
-
-## Please open the .ipynb in JuppyterLab before navigating using the internal links
------
+## __Please open the .ipynb in JupyterLab before navigating using the internal links, they will not work in GitHub__
