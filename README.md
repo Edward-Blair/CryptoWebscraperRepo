@@ -1,6 +1,6 @@
 # WebscraperRepo
 
-* __Please open the .ipynb in JupyterLab before navigating using the internal links, they will not work in GitHub__
+* __Please open the .ipynb in JupyterLab before navigating it using the internal links, they will not work in GitHub__
 * Repository housing a Jupyter Notebook which leverages the PRAW Python package in order to scrape [Reddit](https://www.reddit.com/) data
 # Reddit - Why?
 
