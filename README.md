@@ -16,3 +16,10 @@
 
 # Why this subReddit?
 * [r/CryptoMoonShots](https://www.reddit.com/r/CryptoMoonShots/) works well because the _majority_ of users include the ticker symbol for the cryptocurrency they have made their post about preceded by a "$", giving us something to actually look for. Sure, it's easy enough finding the most frequently occurring words within the first X number of hot posts, but finding the most frequently occurring _cryptocurrencies_ mentioned is more difficult. This is why I did not choose a larger cryptocurrency subReddit with a broader range of post topics e.g. [r/CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/)
+
+# How the code works:
+* After X hot posts are iterated through in the desired subReddit and the post's titles are loaded into a list, the post titles are split into their individual words
+* Next, the number of times each word is mentioned is calculated, this information is then stored in a key-value pair dictionary
+
+key = word from title
+value = number of occurrences of word
