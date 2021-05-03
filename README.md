@@ -1,6 +1,6 @@
 # WebscraperRepo
 
-* __Please open [webscraper_eb.ipynb](WebscraperRepo/webscraper_folder/webscraper_eb.ipynb) in JupyterLab before attempting to navigate it using the internal links, they will not work in GitHub__
+* __Please open [webscraper_eb.ipynb](webscraper_eb.ipynb) in JupyterLab before attempting to navigate it using the internal links, they will not work in GitHub__
 * Repository housing a Jupyter Notebook which leverages the PRAW Python package in order to scrape [Reddit](https://www.reddit.com/) data
 
 # How to use:
