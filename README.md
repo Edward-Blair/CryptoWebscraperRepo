@@ -27,3 +27,15 @@
 * The top 10 remaining dictionary posts are then graphed as a bar chart:       
   x = name of cryptocurrency       
   y = number of occurrences of the word within X "hot" post titles
+
+# Flies in the ointment:
+* One shortcoming of the code currently is that by keeping words from hot posts that start with "$", sometimes certain Strings are kept which are not cryptocurrencies - e.g. several post titles might have the String "$1M" in it, therefore this could end up being graphed.
+* On the flip side of this coin, not all contributers to this subReddit precede the ticker symbol of the cryptocurrency they are talking about with "$" in post titles, this is solely a general rule of thumb. Therefore, there is a chance that many "hot" posts reference one cryptocurrency e.g. IFP, but if this isn't written as $IFP in the posts it will not be in the count.
+
+# Possible remedies to the above problems:
+* Instead of removing words from the dictionary which do not begin with "$", keep all words, and their count
+* [CoinGecko](https://www.coingecko.com/en) has an open API:       
+  ```Python
+  pip install pycoingecko
+  ```
+*  Search for each word in the dictionary on CoinGecko
