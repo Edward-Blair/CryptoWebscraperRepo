@@ -2,6 +2,10 @@
 
 * __Please open webscraper_eb.ipynb in JupyterLab before attempting to navigate it using the internal links, they will not work in GitHub__
 * Repository housing a Jupyter Notebook which leverages the PRAW Python package in order to scrape [Reddit](https://www.reddit.com/) data
+
+# How to use:
+
+* Load webscraper_eb.ipynb __as well as the 3 pngs__ into a JupyterLab environment. From there, follow the instructions contained within the cells of webscraper_eb.ipynb
 # Reddit - Why?
 
 * "Reddit is a social news platform that allows users to discuss and vote on content that other users have submitted. there are small communities called subReddits that bring people and their interests together."
