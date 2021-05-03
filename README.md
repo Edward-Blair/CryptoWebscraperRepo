@@ -21,4 +21,9 @@
 * After X hot posts are iterated through in the desired subReddit and the post's titles are loaded into a list, the post titles are split into their individual words
 * Next, the number of times each word is mentioned is calculated, this information is then stored in a key-value pair dictionary:       
   key = word from title       
-  value = number of occurrences of word       
+  value = number of occurrences of word     
+
+* As previously mentioned, to check what words in these post titles are cryptocurrencies the first element of the String is checked - if it is not "$", it is removed from the dictionary
+* The top 10 remaining dictionary posts are then graphed as a bar chart:       
+  x = name of cryptocurrency       
+  y = number of occurrences of the word within X "hot" post titles
