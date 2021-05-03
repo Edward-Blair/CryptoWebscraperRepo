@@ -23,7 +23,7 @@
   key = word from title       
   value = number of occurrences of word     
 
-* As previously mentioned, to check what words in these post titles are cryptocurrencies the first element of the String is checked - if it is not "$", it is removed from the dictionary (This is not failsafe, more on this later)
+* As previously mentioned, to check what words in these post titles are cryptocurrencies the first element of the String is checked - if it is not "$", it is removed from the dictionary (This is not failsafe, [more on this later](#flies-in-the-ointment))
 * The top 10 remaining dictionary posts are then graphed as a bar chart:       
   x = name of cryptocurrency       
   y = number of occurrences of the word within X "hot" post titles
