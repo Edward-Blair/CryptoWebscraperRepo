@@ -34,8 +34,13 @@
 
 # Possible remedies to the above problems:
 * Instead of removing words from the dictionary which do not begin with "$", keep all words, and their count
-* [CoinGecko](https://www.coingecko.com/en) has an open API:       
+* [CoinGecko](https://www.coingecko.com/en) - the world's largest independent cryptocurrency data aggregator - has an open API:       
   ```Python
   pip install pycoingecko
+  from pycoingecko import CoinGeckoAPI
+  cg = CoinGeckoAPI()
   ```
-*  Search for each word in the dictionary on CoinGecko
+*  Search for each word in the dictionary on CoinGecko. If it exists as a token, don't remove it from the dictionary       
+   If it doesn't exist as a token, remove it.        
+*  Hypothetically this would prevent the removal of words which are cryptocurrencies but are not preceded with $ like currently, and it would also correctly remove words which shouldn't be there but slip through the cracks, e.g. "$1M"
+   
