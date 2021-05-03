@@ -20,5 +20,6 @@
 # How the code works:
 * After X hot posts are iterated through in the desired subReddit and the post's titles are loaded into a list, the post titles are split into their individual words
 * Next, the number of times each word is mentioned is calculated, this information is then stored in a key-value pair dictionary
+
   key = word from title
   value = number of occurrences of word
