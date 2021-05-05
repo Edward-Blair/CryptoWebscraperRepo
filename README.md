@@ -33,7 +33,7 @@
 * On the flip side of this coin, not all contributers to this subReddit precede the ticker symbol of the cryptocurrency they are talking about with "$" in post titles, this is solely a general rule of thumb. Therefore, there is a chance that many "hot" posts reference one cryptocurrency e.g. "IFP", but if this isn't written as "$IFP" in the posts it will not be in the count.
 
 # Possible remedies to the above problems:
-* Instead of removing words from the dictionary which do not begin with "$", keep all words, and their count
+* Instead of removing words from the dictionary which do not begin with "$", keep all words, and their count.
 * [CoinGecko](https://www.coingecko.com/en) - the world's largest independent cryptocurrency data aggregator - has an open API:       
   ```Python
   pip install pycoingecko
