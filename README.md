@@ -3,9 +3,18 @@
 * Repository housing a Jupyter Notebook which leverages the PRAW Python package in order to scrape [Reddit](https://www.reddit.com/) data
 * __Please open [webscraper_eb.ipynb](webscraper_folder/webscraper_eb.ipynb) in JupyterLab before attempting to navigate it using the internal links, they will not work in GitHub__
 
-# How to use:
+# Requirements:
+- **PRAW** = **P**ython **R**eddit **A**PI **W**rapper. A powerful Python package, allowing for simple access to Reddit's API
+- Seaborn. A simplified plotting library.
+- Matplotlib. Another plotting libary.
 
-* Load webscraper_eb.ipynb __as well as the 3 pngs__ into a JupyterLab environment. From there, follow the instructions contained within the cells of webscraper_eb.ipynb
+```bash
+pip install -r requirements.txt
+```
+
+# How to use:
+Load webscraper_eb.ipynb __as well as the 3 pngs__ into a JupyterLab environment. From there, follow the instructions contained within the cells of webscraper_eb.ipynb
+
 # Reddit - Why?
 
 * "Reddit is a social news platform that allows users to discuss and vote on content that other users have submitted. there are small communities called subReddits that bring people and their interests together."
