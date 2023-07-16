@@ -24,7 +24,7 @@ Load webscraper_eb.ipynb __as well as the 3 pngs__ into a JupyterLab environment
 * "hot" posts on a subReddit are determined by taking the log10 of the score and weighing it against 12 hour periods. i.e. to keep the same place, a post must increase its score by x10 every 12 hours.
 
 # Why this subReddit?
-* [r/CryptoMoonShots](https://www.reddit.com/r/CryptoMoonShots/) works well because the _majority_ of users include the ticker symbol for the cryptocurrency they have made their post about preceded by a "$", giving us something to actually look for. Sure, it's easy enough finding the most frequently occurring words within the first X number of hot posts, but finding the most frequently occurring _cryptocurrencies_ mentioned is more difficult. This is why I did not choose a larger cryptocurrency subReddit with a broader range of post topics e.g. [r/CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/)
+* [r/CryptoMoonShots](https://www.reddit.com/r/CryptoMoonShots/) works well because the _majority_ of users include the ticker symbol for the cryptocurrency they have made their post about preceded by a "$", giving us something to actually look for. Sure, it's easy enough finding the most frequently occurring words within the first X number of hot posts, but finding the most frequently occurring _cryptocurrencies_ mentioned is nontrivial. This is why I did not choose a larger cryptocurrency subReddit with a broader range of post topics e.g. [r/CryptoCurrency](https://www.reddit.com/r/CryptoCurrency/)
 
 # How the code works:
 * After X hot posts are iterated through in the desired subReddit and the post's titles are loaded into a list, the post titles are split into their individual words
